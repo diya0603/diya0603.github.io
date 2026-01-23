@@ -1,0 +1,134 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,inital-scale=1" />
+    <title>Diya Shetty - Software Engineer</title>
+    <meta name="description" content="Portolio of Diya Shetty" />
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header class="container">
+        <nav class="nav">
+            <a class="brand" href="#">Diya Shetty</a>
+            <div class="links">
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a class="btn" href="Resume.pdf" target="_blank" rel="noopener">Resume</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <h1>Master's CS Student • Software / Data</h1>
+            <p>
+                I build data-driven products and secure systems—ETL pipelines, agentic research tools, and ML models.
+                Currently pursuing an MCS at NC State (GPA 4.0).
+            </p>
+            <div class="cta">
+                <a class="btn" href="https://linkedin.com/in/diya-shetty06" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn" href="https://github.com/diya0603" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <p class="meta">Raleigh, NC • dshetty@ncsu.edu • 984-382-9033</p>
+        </section>
+    </header>
+
+    <main class="container">
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article class="card">
+                <div>
+                    <h3>IoT + Azure Digital Twin — Real-time Cattle Monitoring</h3>
+                    <p>Built IoT + Digital Twins on Azure for real-time monitoring; reduced farmer effort/time by ~30%. Award: Best Innovation (Engenius 2024).</p>
+                    <p class="meta">Tech: Azure, IoT, APIs, 3D visualization</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div>
+                    <h3>Healthcare NLP Research (Bio+Clinical BERT)</h3>
+                    <p>Applied Bio+Clinical BERT on healthcare NLP tasks; reported 99% accuracy and evaluated trustworthiness using LIME/SHAP.</p>
+                    <p class="meta">Tech: BERT, LIME, SHAP</p>
+                </div>
+            </article>
+
+             <article class="card">
+                <div>
+                    <h3>Cryptography & Secure Networking</h3>
+                    <p>Implemented secure file transfer (AES-256 GCM, PBKDF2, Diffie-Hellman) and built a MITM proxy to demonstrate DH vulnerabilities.</p>
+                    <p class="meta">Tech: Python, PyCryptodome, Sockets</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <article class="card">
+                <div>
+                    <h3>Data Analyst Intern - Genpact</h3>
+                    <p class="meta">Jun 2025 - Aug 2025 • New York, USA</p>
+                    <ul>
+                        <li>Built an agentic AI market-scope platform; reduced manual research time by ~60%.</li>
+                        <li>Created AWS Glue ETL pipeline with dimensional modeling for daily analysis of 10K+ records.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card">
+                <div>
+                <h3>Summer Intern - EY</h3>
+                <p class="meta">Mar 2024 - Apr 2024 • Chennai, India</p>
+                <ul>
+                    <li>Created ERP blueprint (procurement, manufacturing, sales) based on SAP-ERP systems.</li>
+                    <li>Built an ERP learning app using HTML/CSS/JS and Node.js.</li>
+                </ul>
+                </div>
+            </article>
+
+            <article class="card">
+                <div>
+                <h3>Technical Operations Intern - Unfold Consulting</h3>
+                <p class="meta">Aug 2023 - Nov 2023 • Bangalore, India</p>
+                <ul>
+                    <li>Performed UAT testing across dev/prod; designed positive/negative scenarios and contributed solutions pre go-live.</li>
+                </ul>
+                </div>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="grid">
+                <div class="pillbox">
+                    <h4>Languages</h4>
+                    <p>Python, C/C++, Java, JavaScript, HTML/CSS, React, PHP, Node.js</p>
+                </div>
+                <div class="pillbox">
+                    <h4>Databases / Cloud</h4>
+                    <p>MySQL, MongoDB, PostgreSQL, AWS, Azure</p>
+                </div>
+                <div class="pillbox">
+                    <h4>Tools</h4>
+                    <p>Git, Docker, NumPy, Pandas, TensorFlow/Keras, scikit-learn, PySpark, Streamlit, Wireshark</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:dshetty@ncsu.edu">dshetty@ncsu.edu</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/diya-shetty06" target="_blank" rel="noopener">linkedin.com/in/diya-shetty06</a></p>
+            <p>GitHub: <a href="https://github.com/diya0603" target="_blank" rel="noopener">github.com/diya0603</a></p>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <small>© <span id="y"></span> Diya Shetty</small>
+    </footer>
+
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
